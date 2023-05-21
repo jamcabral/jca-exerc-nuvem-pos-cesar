@@ -2,6 +2,6 @@
 
 ### Jammesson Cabral
 
-| **Tipo de Projeto**          | **Modelo Selecionado** | **Linguagem** |
+| **Tipo de Projeto**          | **Ferramental** | **Linguagem** |
 | ---------------------------- | ---------------------- | ------------- |
-| Trabalho final cadeira de cloud aws pós cesar school de Imagens<br> | YOLOv5                 | PyTorch       |
+| Trabalho final cadeira de cloud aws pós cesar school de Imagens<br> | Google Colab                 | Python With Pandas       |

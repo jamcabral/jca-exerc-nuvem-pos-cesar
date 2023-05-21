@@ -48,7 +48,11 @@
 ## 1.5.	Dos filmes encontrados na questão anterior, quais são os 10 filmes com as piores notas ?
 | **Função Utilizda** | **Link Documentação** | **Explicação de uso na atividade**|
 | -----               | -----                 | ------ |
+| min()               | [pandas.DataFrame.min](https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.min.html)  | A função min retorna os menores valores de um DataFrame ou DataSeries, utilizamos ele para retornar os filmes com os melhores valores de avaliação. |
+| merge()             | [pandas.DataFrame.merge](https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.merge.html)  | O merge de Dois Dataframes, faz um JOIN dos mesmos utilizando uma tabela em comum entre os dois, e definimos o tipo da junção que é LEFT ou seja pega os valores do primeiro DF com o do Segundo, Right Pegar os dados em comum do Segundo com o Primeiro, ou Inner que junta os dois dataframes, para o nosso problema precisamos dos 10 filmes que consta no df1, junto com as menores notas contidas no df2.
 
 ## 1.6.	Quais os id's dos 5 customers que mais avaliaram filmes e quantas avaliações cada um fez?
 | **Função Utilizda** | **Link Documentação** | **Explicação de uso na atividade**|
 | -----               | -----                 | ------ |
+| value_counts()      | [pandas.Series.value_counts](https://pandas.pydata.org/docs/reference/api/pandas.Series.value_counts.html)  | Utilizamos o Value_counts para contar a quantidade que cada Customers ID votou na tabela de Rating. |
+| head()              | [pandas.DataFrame.head](https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.head.html)  | Utilizado para retorna os valores do topo de um data frame, utilizamos o valor head(5), para retornar as 5 linhas do topo do dataframe.
